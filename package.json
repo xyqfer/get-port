@@ -1,0 +1,27 @@
+{
+  "name": "@xyqfer/get-port",
+  "version": "1.0.1",
+  "description": "get port utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "publish:npm": "npm publish --access=public --registry=https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyqfer/get-port.git"
+  },
+  "keywords": [
+    "port",
+    "utils"
+  ],
+  "author": "liangliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyqfer/get-port/issues"
+  },
+  "homepage": "https://github.com/xyqfer/get-port#readme",
+  "dependencies": {
+    "portfinder": "^1.0.24"
+  }
+}
